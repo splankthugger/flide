@@ -1,0 +1,504 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "url": "",
+            "coverUrl": "/img/avatar.jpg",
+            "category": "Профиль",
+            "title": "User",
+            "subscriptionArtistsId": [1, 2],
+            "playlistsId": [1],
+            "searchArtists": [1, 2],
+            "searchAlbums": [3, 4],
+            "likedCategory": "Плейлист",
+            "likedTitle": "Лайкнутые треки",
+            "likedSongs": [1, 2, 3, 4, 5, 6],
+            "popularMonthlySongs": [1, 2, 3, 4, 5, 6]
+        }
+    ],
+
+    "artists": [
+        {
+            "id": 1,
+            "url": "http://localhost:3000/artist/${id}",
+            "coverUrl": "/img/youngchange.jpg",
+            "category": "Исполнитель",
+            "description": "Исполнитель",
+            "title": "youngchange",
+            "mounthlyPlays": "3 897 698",
+            "singles": [9],
+            "albums": [1, 2],
+            "allReleases": [1, 2, 9],
+            "popularSongs": [1, 4, 2, 7, 5]
+        },
+
+        {
+            "id": 2,
+            "url": "http://localhost:3000/artist/${id}",
+            "coverUrl": "/img/20.png",
+            "category": "Исполнитель",
+            "description": "Исполнитель",
+            "title": "Tom",
+            "mounthlyPlays": "200",
+            "discography": {
+                "singles": [],
+                "albums": [3]
+            },
+            "popularSongs": [16]
+        },
+
+        {
+            "id": 3,
+            "url": "http://localhost:3000/artist/${id}",
+            "coverUrl": "/img/21.jpg",
+            "category": "Исполнитель",
+            "description": "Исполнитель",
+            "title": "Jack",
+            "mounthlyPlays": "300",
+            "discography": {
+                "singles": [],
+                "albums": [4]
+            },
+            "popularSongs": [1, 4, 2, 7, 5]
+        },
+
+        {
+            "id": 4,
+            "url": "http://localhost:3000/artist/${id}",
+            "coverUrl": "/img/22.jpg",
+            "category": "Исполнитель",
+            "description": "Исполнитель",
+            "title": "Фантом лансер",
+            "mounthlyPlays": "300",
+            "discography": {
+                "singles": [],
+                "albums": [5]
+            },
+            "popularSongs": [1, 4, 2, 7, 5]
+        },
+
+        {
+            "id": 5,
+            "url": "http://localhost:3000/artist/${id}",
+            "coverUrl": "/img/23.jpg",
+            "category": "Исполнитель",
+            "description": "Исполнитель",
+            "title": "Иван",
+            "mounthlyPlays": "300",
+            "discography": {
+                "singles": [],
+                "albums": [6]
+            },
+            "popularSongs": [1, 4, 2, 7, 5]
+        },
+
+        {
+            "id": 6,
+            "url": "http://localhost:3000/artist/${id}",
+            "coverUrl": "/img/24.jpg",
+            "category": "Исполнитель",
+            "description": "Исполнитель",
+            "title": "Василий",
+            "mounthlyPlays": "300",
+            "discography": {
+                "singles": [],
+                "albums": [7]
+            },
+            "popularSongs": [1, 4, 2, 7, 5]
+        },
+
+        {
+            "id": 7,
+            "url": "http://localhost:3000/artist/${id}",
+            "coverUrl": "/img/25.jpg",
+            "category": "Исполнитель",
+            "description": "Исполнитель",
+            "title": "",
+            "mounthlyPlays": "300",
+            "discography": {
+                "singles": [],
+                "albums": [8]
+            },
+            "popularSongs": [1, 4, 2, 7, 5]
+        },
+
+        {
+            "id": 8,
+            "url": "http://localhost:3000/artist/${id}",
+            "coverUrl": "/img/3.jpg",
+            "category": "Исполнитель",
+            "description": "Исполнитель",
+            "title": "Bob",
+            "mounthlyPlays": 100,
+            "discography": {
+                "singles": [],
+                "albums": [9]
+            },
+            "popularSongs": [1, 4, 2, 7, 5]
+        }
+    ],
+
+    "albums": [
+        {
+            "id": 1,
+            "url": "http://localhost:3000/album/${id}",
+            "coverUrl": "/img/yc1.jpg",
+            "category": "Альбом",
+            "title": "Trap Life",
+            "artistId": 1,
+            "plays": 600,
+            "songs": [1, 2, 3, 4, 5, 6, 7],
+            "releaseDate": "13 января, 2025 г.",
+            "year": "2025",
+            "labelTitle": "youngchange"
+        },
+
+        {
+            "id": 2,
+            "url": "http://localhost:3000/album/${id}",
+            "coverUrl": "/img/yc2.jpg",
+            "category": "Альбом",
+            "title": "City Of The Trap II",
+            "artistId": 1,
+            "plays": 600,
+            "songs": [8, 9, 10, 11, 12, 13, 14, 15],
+            "releaseDate": "13 января, 2025 г.",
+            "year": "2025",
+            "labelTitle": "youngchange"
+        },
+
+        {
+            "id": 3,
+            "url": "http://localhost:3000/album/${id}",
+            "coverUrl": "/img/4.jpg",
+            "category": "Альбом",
+            "title": "My album 11",
+            "artistId": 2,
+            "plays": 300,
+            "songs": [16],
+            "releaseDate": "13 января, 2025 г.",
+            "year": "2025",
+            "labelTitle": "Tom Label"
+        },
+
+        {
+            "id": 4,
+            "url": "http://localhost:3000/album/${id}",
+            "coverUrl": "/img/5.jpg",
+            "category": "Альбом",
+            "title": "My album 11",
+            "artistId": 4,
+            "plays": 400,
+            "songs": [1],
+            "releaseDate": "",
+            "year": "2025",
+            "labelTitle": ""
+        },
+
+        {
+            "id": 5,
+            "url": "http://localhost:3000/album/${id}",
+            "coverUrl": "/img/6.jpg",
+            "category": "Альбом",
+            "title": "My album 11",
+            "artistId": 5,
+            "plays": 500,
+            "songs": [1],
+            "releaseDate": "",
+            "year": "2025",
+            "labelTitle": ""
+        },
+
+        {
+            "id": 6,
+            "url": "http://localhost:3000/album/${id}",
+            "coverUrl": "/img/7.jpg",
+            "category": "Альбом",
+            "title": "My album 11",
+            "artistId": 6,
+            "plays": 600,
+            "songs": [1],
+            "releaseDate": "",
+            "year": "2025",
+            "labelTitle": ""
+        },
+
+        {
+            "id": 7,
+            "url": "http://localhost:3000/album/${id}",
+            "coverUrl": "/img/1.jpg",
+            "category": "Альбом",
+            "title": "My album",
+            "artistId": 7,
+            "plays": 100,
+            "songs": [1],
+            "releaseDate": "",
+            "year": "2025",
+            "labelTitle": ""
+        },
+
+        {
+            "id": 8,
+            "url": "http://localhost:3000/album/${id}",
+            "coverUrl": "/img/2.jpg",
+            "category": "Альбом",
+            "title": "My album 2",
+            "artistId": 8,
+            "plays": 200,
+            "songs": [1],
+            "releaseDate": "",
+            "year": "2025",
+            "labelTitle": ""
+        },
+        {
+            "id": 9,
+            "url": "http://localhost:3000/album/${id}",
+            "coverUrl": "/img/yc_singleCover.jpg",
+            "category": "Сингл",
+            "title": "Life Will Be Great",
+            "artistId": 1,
+            "plays": 300,
+            "songs": [17],
+            "releaseDate": "31 февраля, 2023 г.",
+            "year": "2023",
+            "labelTitle": "LabelName"
+        }
+    ],
+
+    "playlists": [
+        {
+            "id": 1,
+            "url": "/playlist/${id}",
+            "coverUrl": "/img/1.jpg",
+            "category": "Плейлист",
+            "title": "My Playlist_1",
+            "user": 1,
+            "songs": [1, 2]
+        },
+        {
+            "id": 2,
+            "url": "/playlist/${id}",
+            "coverUrl": "/img/2.jpg",
+            "category": "Плейлист",
+            "title": "My Playlist2",
+            "user": 1,
+            "songs": [3, 4]
+        },
+        {
+            "id": 3,
+            "url": "/playlist/${id}",
+            "coverUrl": "",
+            "category": "Плейлист",
+            "title": "My Playlist",
+            "user": 2,
+            "songs": [5, 6]
+        }
+    ],
+
+    "songs": [
+        {
+            "id": 1,
+            "url": "",
+            "coverUrl": "/img/yc1.jpg",
+            "title": "Трек первый",
+            "artistId": 1,
+            "albumId": 1,
+            "albumOrder": 1,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 2,
+            "url": "",
+            "coverUrl": "/img/yc1.jpg",
+            "title": "Второй трек",
+            "artistId": 1,
+            "albumId": 1,
+            "albumOrder": 2,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 3,
+            "url": "",
+            "coverUrl": "/img/yc1.jpg",
+            "title": "Третья песня",
+            "artistId": 1,
+            "albumId": 1,
+            "albumOrder": 3,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 4,
+            "url": "",
+            "coverUrl": "/img/yc1.jpg",
+            "title": "Песня номер четыре",
+            "artistId": 1,
+            "albumId": 1,
+            "albumOrder": 4,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 5,
+            "url": "",
+            "coverUrl": "/img/yc1.jpg",
+            "title": "5-ый трек",
+            "artistId": 1,
+            "albumId": 1,
+            "albumOrder": 5,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 6,
+            "url": "",
+            "coverUrl": "/img/yc1.jpg",
+            "title": "Песня №6",
+            "artistId": 1,
+            "albumId": 1,
+            "albumOrder": 6,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 7,
+            "url": "",
+            "coverUrl": "/img/yc1.jpg",
+            "title": "Седьмая",
+            "artistId": 1,
+            "albumId": 1,
+            "albumOrder": 7,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 8,
+            "url": "",
+            "coverUrl": "/img/yc2.jpg",
+            "title": "Восьмая песня",
+            "artistId": 1,
+            "albumId": 2,
+            "albumOrder": 1,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 9,
+            "url": "",
+            "coverUrl": "/img/yc2.jpg",
+            "title": "Девятая песня",
+            "artistId": 1,
+            "albumId": 2,
+            "albumOrder": 2,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 10,
+            "url": "",
+            "coverUrl": "/img/yc2.jpg",
+            "title": "Десятая песня",
+            "artistId": 1,
+            "albumId": 2,
+            "albumOrder": 3,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 11,
+            "url": "",
+            "coverUrl": "/img/yc2.jpg",
+            "title": "Одиннадцатая песня",
+            "artistId": 1,
+            "albumId": 2,
+            "albumOrder": 4,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 12,
+            "url": "",
+            "coverUrl": "/img/yc2.jpg",
+            "title": "Двенадцатая песня",
+            "artistId": 1,
+            "albumId": 2,
+            "albumOrder": 5,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 13,
+            "url": "",
+            "coverUrl": "/img/yc2.jpg",
+            "title": "13 песня",
+            "artistId": 1,
+            "albumId": 2,
+            "albumOrder": 6,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 14,
+            "url": "",
+            "coverUrl": "/img/yc2.jpg",
+            "title": "14 песня",
+            "artistId": 1,
+            "albumId": 2,
+            "albumOrder": 7,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 15,
+            "url": "",
+            "coverUrl": "/img/yc2.jpg",
+            "title": "15 песня",
+            "artistId": 1,
+            "albumId": 2,
+            "albumOrder": 8,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 16,
+            "url": "",
+            "coverUrl": "/img/4.jpg",
+            "title": "16",
+            "artistId": 2,
+            "albumId": 3,
+            "albumOrder": 1,
+            "plays": 200,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        },
+        {
+            "id": 17,
+            "url": "",
+            "coverUrl": "/img/yc_singleCover.jpg",
+            "title": "Life Will Be Great",
+            "artistId": 1,
+            "albumId": 9,
+            "albumOrder": 1,
+            "plays": 300,
+            "duration": "",
+            "path": "assets/music/*.mp3"
+        }
+    ]
+}

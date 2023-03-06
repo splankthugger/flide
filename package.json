@@ -1,0 +1,35 @@
+{
+  "name": "flide",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "json-server data/db.json -p 3001"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.2",
+    "@types/styled-components": "^5.1.25",
+    "axios": "^1.2.1",
+    "next": "12.1.6",
+    "next-absolute-url": "^1.2.2",
+    "nookies": "^2.5.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
+    "@types/node": "18.0.0",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "babel-plugin-styled-components": "^2.0.7",
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6",
+    "json-server": "^0.17.1",
+    "typescript": "4.7.4"
+  }
+}

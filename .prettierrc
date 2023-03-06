@@ -1,0 +1,15 @@
+{
+    "tabWidth": 4,
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "semi": false,
+    "trailingComma": "es5",
+    "proseWrap": "preserve",
+    "importOrder": [
+        "<THIRD_PARTY_MODULES>",
+        "^../(.*)",
+        "^./(.*)"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+}
